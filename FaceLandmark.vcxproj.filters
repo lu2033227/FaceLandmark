@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="DetCamera.cpp" />
+    <ClCompile Include="DetList.cpp" />
+    <ClCompile Include="FaceLandmark.cpp" />
+    <ClCompile Include="featpyramid.cpp" />
+    <ClCompile Include="model.cpp" />
+    <ClCompile Include="NPDDetector.cpp" />
+    <ClCompile Include="NPDModel.cpp" />
+    <ClCompile Include="Pose.cpp" />
+    <ClCompile Include="shapeRegression.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="imtransform.cpp" />
+    <ClCompile Include="TestVideo.cpp" />
+    <ClCompile Include="Thread.cpp" />
+    <ClCompile Include="AIMG.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="config.h" />
+    <ClInclude Include="featpyramid.h" />
+    <ClInclude Include="model.h" />
+    <ClInclude Include="mtimes.h" />
+    <ClInclude Include="NPDDetector.h" />
+    <ClInclude Include="NPDModel.h" />
+    <ClInclude Include="Pose.h" />
+    <ClInclude Include="shapeRegression.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="IRR\aabbox3d.h">
+      <Filter>IRR</Filter>
+    </ClInclude>
+    <ClInclude Include="IRR\dimension2d.h">
+      <Filter>IRR</Filter>
+    </ClInclude>
+    <ClInclude Include="IRR\irrAllocator.h">
+      <Filter>IRR</Filter>
+    </ClInclude>
+    <ClInclude Include="IRR\IrrCompileConfig.h">
+      <Filter>IRR</Filter>
+    </ClInclude>
+    <ClInclude Include="IRR\irrMath.h">
+      <Filter>IRR</Filter>
+    </ClInclude>
+    <ClInclude Include="IRR\irrString.h">
+      <Filter>IRR</Filter>
+    </ClInclude>
+    <ClInclude Include="IRR\irrTypes.h">
+      <Filter>IRR</Filter>
+    </ClInclude>
+    <ClInclude Include="IRR\line3d.h">
+      <Filter>IRR</Filter>
+    </ClInclude>
+    <ClInclude Include="IRR\matrix4.h">
+      <Filter>IRR</Filter>
+    </ClInclude>
+    <ClInclude Include="IRR\plane3d.h">
+      <Filter>IRR</Filter>
+    </ClInclude>
+    <ClInclude Include="IRR\position2d.h">
+      <Filter>IRR</Filter>
+    </ClInclude>
+    <ClInclude Include="IRR\quaternion.h">
+      <Filter>IRR</Filter>
+    </ClInclude>
+    <ClInclude Include="IRR\rect.h">
+      <Filter>IRR</Filter>
+    </ClInclude>
+    <ClInclude Include="IRR\vector2d.h">
+      <Filter>IRR</Filter>
+    </ClInclude>
+    <ClInclude Include="IRR\vector3d.h">
+      <Filter>IRR</Filter>
+    </ClInclude>
+    <ClInclude Include="imtransform.h" />
+    <ClInclude Include="LivenessDetector.h" />
+    <ClInclude Include="Thread.h" />
+    <ClInclude Include="Timer.h" />
+    <ClInclude Include="AIMG.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="IRR">
+      <UniqueIdentifier>{c3932241-00e6-4557-8a18-de9592aaca6f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
